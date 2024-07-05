@@ -27,3 +27,8 @@
 - **Line Thickness Adjustment:** Initially, symbols in the dataset were drawn with thin lines. Testing with symbols drawn using similarly thin lines yielded poor recognition results on real data. To address this, the drawing application was adjusted to use thicker lines, despite the training data remaining unchanged with thin lines. This adjustment markedly enhanced recognition accuracy.
 
 These optimizations collectively enhance the usability and accuracy of the MagicMathNotebook application, making it a robust tool for interactive mathematical problem-solving.
+
+The following video showcases the system in action
+
+https://github.com/osipgas/MagicMathNotebook/assets/115102730/4e02fe89-b27f-433f-91ad-2d3780e4bcf0
+
