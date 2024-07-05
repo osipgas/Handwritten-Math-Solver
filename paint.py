@@ -288,12 +288,6 @@ if __name__ == "__main__":
                  tt.ToTensor()
                  ])
 
-    # путь к папке в которой будут хранится фото символов для дальнейшей обработке нейросетью
-    folder_path = "/Users/osiprovin/Desktop/ml:dl/CV/Magic math notebook/Saved_images"
-    # создаем папку
-    os.makedirs(folder_path, exist_ok=True)
-    # создаем объект класса для обрабоки нарисованной фигуры
-
     # запускаем приложение
     root = tk.Tk()
     app = SimpleDrawingApp(root, digit_recognizer, transforms)
